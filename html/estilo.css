@@ -1,0 +1,224 @@
+/*Body*/
+body{
+	/*para colocar una imagen de fondo*/
+	background-image:url("../imagenes/bl.png");
+	/*para que no se repita la imagen de fondo*/
+	background-repeat: no repeat;
+	/*para ajustar el tamaño de la imagen*/
+	background-size:100% 100%;
+	/*para agregar color o juntar color con imagen*/
+	background-color:#00000;
+    /*cambiar tipó de letra*/
+     font-family:"mifuente";
+	 /*color de letra*/
+	 font-size:50px;
+	 color:#38ABFB;
+}
+
+hr{
+	/*border es para la linea 
+	tamaño en pixeles tipo de linea y color*/
+	
+border: 5px solid #FFFFFF;
+/*border-radius es para el termino de las orillas 
+el radio que se expresa en pixele*/
+border-radius: 5px;
+border-width: 80%;
+}
+p{
+	/*text-align se utiliza para alinear el texto 
+	por default estan alineados a la izquierda*/
+	text-align:justify;
+	font-size:35px;
+	color:#38ABFB;
+	font-family:mifuente;
+}
+
+table,td,tr{
+	/*linea grosor y tipo de linea*/
+	border:8px solid;
+	/*color de linea*/
+	border-color:#00000;
+	/*Alineacion del texto*/
+	text-align: center;
+	/*color de fondo*/
+	background-color:#00000;
+}
+th{
+	background-color:width;
+}
+ul{
+	/*indica el tipo de viñleta, en este caso uncirculo puede
+	ser tambien cuadro*/
+	list-style-type:circle;
+	list-style-position: inside;
+}
+ol{
+	/*Algunos de los valores de list-style-type son: lower-alpha; 
+	a,b,c,d,e,f i,ii,iii,iv, A,B,C,D,E,F I,II,III,IV*/
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+.pie{
+	font-family:jk;
+	font-size:16px;
+	color:#38ABFB;
+	text-align: center;
+	font-weight:bold;
+}
+.tabla{
+	font-family: jk;
+	font-size:35px;
+	color:#38ABFB;
+	text-align: center;
+	font-weight:bold;
+	
+}
+@font-face{
+	font-family:mifuente;
+	src: url("../fuentes/Hamilton.ttf")
+}
+
+.titulo{
+	text-align: center;
+	font-family: mifuente;
+	font-size:50px;
+	color:#38ABFB;
+	font-weight:bold;
+	
+}
+.itt{
+	width:400px;
+	height:400px;
+}
+.imt{
+	width:100px;
+	height:100px;
+}
+.est{
+	width:90px;
+	height:90px;
+	border-radius:50%
+}
+.otay{
+	width:300px;
+	height:300px;
+	border:10px solid #38ABFB;
+	padding:10px;
+}
+/*fuentedeg es para llamar a una letra de google ejemplo*/
+
+.fuentedegoogle{
+font-family: 'Dancing Script', cursive;
+font-size:28px
+}
+@font-face{
+	font-family:jj;
+	font-size:16px;
+	src: url("../fuentes/Hello Brittain.ttf");
+}
+/*Uso de Dyv´s*/
+/*Div o caja para el encabezado*/
+*{ 
+	margin:0px;
+	padding:0px;
+}
+div#top{
+
+	width:100%;
+	height:200px;
+	background-image:linear-gradient(#8FCEF0,#1FD9F6);
+
+}
+div#principal{
+	margin:auto;
+	margin-top:10px;
+	width:90%;
+	/*height:600px;*/
+
+	background-image:linear-gradient(#AEDDF7,#85C1E9);
+}
+div#piep{
+	width:100%;
+	height:200px;
+	background-image;linear-gradient (#D6EAF8,#85C1E9);
+}
+.caja{
+	height:300px;
+	width:200px;
+	background:#E5EEF2;
+	border:1px solid #E5EEF2;
+	margin:5px;
+	color:#26485A;
+	text-align:center;
+	display:inline-block;
+}
+
+.caja:hover{
+	box-shadow:0 0 10px #5FC4B2;
+	transform:scale(1.3);	
+	
+}
+
+.caja-texto{
+	padding-top:2px;
+	font-size:20px;
+	color:#1592DA;
+	font-weight:bold;
+}	
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+.carrousel{
+    width:600px;
+    margin:auto;
+    box-sizing:border-box;
+}
+.conteCarrousel{
+    width:100%;
+    height:400px;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+.itemCarrousel{
+    position:relative;
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+.itemCarrouselArrows{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    box-sizing:border-box;
+}
+.itemCarrouselArrows >i :hover{
+    cursor:pointer;
+}
+.conterCarrouselController{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.conterCarrouselController >a{
+    text-decoration:none;
+    font-size:32px;
+    color:black;
+}
+.itemCarrouselArrows >a >i {
+    color:white;
+}
